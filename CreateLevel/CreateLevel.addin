@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	
+	<AddIn Type="Command">
+    <Text>Command CreateLevel</Text>
+    <Description>Some description for CreateLevel</Description>
+    <Assembly>CreateLevel.dll</Assembly>
+    <FullClassName>CreateLevel.Command</FullClassName>
+    <ClientId>11b1e694-c2d7-4ba7-8eaa-db64d21d7923</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+
+	
+	<AddIn Type="Application">
+    <Name>Application CreateLevel</Name>
+    <Assembly>CreateLevel.dll</Assembly>
+    <FullClassName>CreateLevel.App</FullClassName>
+    <ClientId>2b5d8f45-b8b8-4ef2-a5b2-8f8df1ba9b38</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
